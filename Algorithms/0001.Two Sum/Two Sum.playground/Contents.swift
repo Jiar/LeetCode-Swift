@@ -1,9 +1,10 @@
 ///
-/// https://leetcode.com/problems/two-sum
+/// https://leetcode.com/problems/two-sum/
 ///
 
 func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     /*
+     * https://leetcode.com/submissions/detail/247709736/
      * 耗时：408 ms
      * 内存：21.1 MB
      *
@@ -22,6 +23,7 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
      */
  
     /*
+     * https://leetcode.com/submissions/detail/247713648/
      * 耗时：1932 ms
      * 内存：22.7 MB
      *
@@ -42,8 +44,9 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
      */
     
     /*
+     * https://leetcode.com/submissions/detail/248145505/
      * 耗时：32 ms
-     * 内存：22.7 MB
+     * 内存：22.6 MB
      */
     var keyValueDic: [Int: Int] = [:]
     for index in 0..<nums.count {
