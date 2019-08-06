@@ -6,6 +6,7 @@ func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
     /*
      * https://leetcode.com/submissions/detail/249421030/
      * 耗时：96 ms
+     * 击败：45.74%
      * 内存：21.5 MB
      *
     let num = (nums1+nums2).sorted(by: <)
@@ -20,6 +21,7 @@ func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
     /*
      * https://leetcode.com/submissions/detail/249433950/
      * 耗时：88 ms
+     * 击败：72.56%
      * 内存：21 MB
      *
     let total = nums1.count+nums2.count
@@ -58,6 +60,7 @@ func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
     /*
      * https://leetcode.com/submissions/detail/249441234/
      * 耗时：80 ms
+     * 击败：96.67%
      * 内存：21.1 MB
      */
     let total = nums1.count+nums2.count

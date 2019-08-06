@@ -6,6 +6,7 @@ func lengthOfLongestSubstring(_ s: String) -> Int {
     /*
      * https://leetcode.com/submissions/detail/248252120/
      * 耗时：60 ms
+     * 击败：52.15%
      * 内存：21 MB
      *
     let string = Array(s)
@@ -26,6 +27,7 @@ func lengthOfLongestSubstring(_ s: String) -> Int {
     /*
      * https://leetcode.com/submissions/detail/248278845/
      * 耗时：44 ms
+     * 击败：76.24%
      * 内存：20.9 MB
      *
     let string = Array(s)
@@ -50,6 +52,7 @@ func lengthOfLongestSubstring(_ s: String) -> Int {
     /*
      * https://leetcode.com/submissions/detail/248280947/
      * 耗时：56 ms
+     * 击败：57.20%
      * 内存：22.6 MB
      *
     let string = Array(s)
@@ -82,6 +85,7 @@ func lengthOfLongestSubstring(_ s: String) -> Int {
     /*
      * https://leetcode.com/submissions/detail/248279332/
      * 耗时：44 ms
+     * 击败：76.24%
      * 内存：21 MB
      */
     let string = Array(s)

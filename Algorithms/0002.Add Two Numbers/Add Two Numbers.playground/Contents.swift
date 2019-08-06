@@ -29,6 +29,7 @@ func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
     /*
      * https://leetcode.com/submissions/detail/248141219/
      * 耗时：48 ms
+     * 击败：75.57%
      * 内存：20.8 MB
      *
     var l1 = l1
@@ -60,6 +61,7 @@ func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
     /*
      * https://leetcode.com/submissions/detail/248144172/
      * 耗时：40 ms
+     * 击败：99.34%
      * 内存：20.8 MB
      */
     var l1 = l1

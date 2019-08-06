@@ -6,6 +6,7 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     /*
      * https://leetcode.com/submissions/detail/247709736/
      * 耗时：408 ms
+     * 击败：28.69%
      * 内存：21.1 MB
      *
      * 最常见的方法
@@ -25,6 +26,7 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     /*
      * https://leetcode.com/submissions/detail/247713648/
      * 耗时：1932 ms
+     * 击败：0%
      * 内存：22.7 MB
      *
      * 不再进行两次遍历，一次遍历时，将值保存下来，减少了第二次遍历，以空间换时间。
@@ -46,6 +48,7 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     /*
      * https://leetcode.com/submissions/detail/248145505/
      * 耗时：32 ms
+     * 击败：94.00%
      * 内存：22.6 MB
      */
     var keyValueDic: [Int: Int] = [:]
